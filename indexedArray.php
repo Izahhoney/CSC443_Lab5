@@ -14,6 +14,9 @@
     echo "The value of key $key is: $value<br>";
     echo "<br>";
     }
+    foreach ($month as $value){
+        echo "value: $value<BR>";
+    }
     ?>
     </body>
 </html>
