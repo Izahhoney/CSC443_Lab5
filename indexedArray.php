@@ -10,8 +10,8 @@
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
     $arrlength = count($month);
-    for ($month=0; $month < $arrlength; $month++) {
-        echo $month[$month];
+    for ($x=0; $x < $arrlength; $x++) {
+        echo $month[$x];
         echo "<br>";
     }
     ?>
