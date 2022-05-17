@@ -11,8 +11,8 @@
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
     ?>
     <?php
-    for ($month=0; $month<=12; $month++) {
-        echo $month[$month];
+    for ($X=0; $X<=12; $X++) {
+        echo $month[$X];
     }
     ?>
     </body>
