@@ -9,18 +9,12 @@
 <body>
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-    $array_month[1] = January;
-    $array_month[2] = February;
-    $array_month[3] = March;
-    $array_month[4] = April;
-    $array_month[5] = May;
-    $array_month[6] = June;
-    $array_month[7] = July;
-    $array_month[8] = August;
-    $array_month[9] = September;
-    $array_month[10] = October;
-    $array_month[11] = November;
-    $array_month[12] = Disember;
+    $arrlength = count;
+    for ($x=0; $x < $arrlength; $x++) {
+        echo $month[$x];
+        echo "<br>";
+    }
+
     ?>
     </body>
 </html>
