@@ -10,7 +10,7 @@
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
 
-    foreach($array as $key => $value){
+    foreach($month as $key => $value){
     echo $month[$key];
     echo "<br>";
     }
