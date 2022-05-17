@@ -11,7 +11,7 @@
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
 
     foreach($month as $key => $value){
-    echo $month[$key];
+    echo "The value of key $key is: $value<br>";
     echo "<br>";
     }
     ?>
