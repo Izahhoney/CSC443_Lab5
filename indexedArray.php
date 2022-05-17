@@ -12,7 +12,7 @@
     ?>
     <?php
     for ($month=0; $month<=12; $month++) {
-        echo $month[$1];
+        echo $month[$month];
     }
     ?>
     </body>
