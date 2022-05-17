@@ -9,16 +9,12 @@
 <body>
     <?php
     $monthDays = array('January' => 31,'February'=> 28,'March' =>31,'April' => 30,'May' => 31,'June' => 30,'July' => 31,'August' => 31,'September' => 30,'October' => 31,'November' => 30,'December' =>31);
-    echo "<table border =\"1\" style='border-collapse: collapse'>";
-	for ($row=1; $row <= 31; $row++) { 
-		echo "<tr> \n";
-		for ($col=1; $col <= 31; $col++) { 
-		   $p = $col * $row;
-		   echo "<td>$p</td> \n";
-		   	}
-	  	    echo "</tr>";
-		}
-		echo "</table>";
+    $begin = new DateTime( "2015-07-03" );
+$end   = new DateTime( "2015-07-09" );
+
+for($i = $begin; $i <= $end; $i->modify('+1 day')){
+    echo $i->format("Y-m-d");
+}
         ?>
 </body>
 </html>
