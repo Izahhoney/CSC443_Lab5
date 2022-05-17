@@ -9,9 +9,7 @@
 <body>
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-    ?>
-    <?php
-    for ($X=0; $X<=X; $X++) {
+    for ($X=0; $X<=12; $X++) {
         echo $month[$X];
     }
     ?>
