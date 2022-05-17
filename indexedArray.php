@@ -9,9 +9,9 @@
 <body>
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-    
+
     $arrlength = count($month);
-    foreach($array as $key => $month){
+    foreach($array as $key => $value){
     echo $month[$key];
     echo "<br>";
     }
