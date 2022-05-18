@@ -12,7 +12,7 @@
     $monthDays = array ('Splorch' => 23, 'Sploo' => 28, 'Splat' => 2, 'Splatt' => 3,'Spleen' => 44, 'Splune' => 30,'Spling' => 61, 'Slendo' => 61,'Sploctember' => 31, 'Splictember' => 31,'Splanet' => 30, 'TheRest' => 22);
     echo "The number of days in the shortest month is:".min($monthDays)"</br>";
     echo "The name of the shortest month".array_search(min($month))"</br>";
-    echo "The total number of days in a year is :".array_sum($monthDays)"</br>";
+    //echo "The total number of days in a year is :".array_sum($monthDays)"</br>";
     ?>
 </body>
 </html>
