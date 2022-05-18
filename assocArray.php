@@ -9,12 +9,7 @@
 <body>
     <?php
     $monthDays = array('January' => 31,'February'=> 28,'March' =>31,'April' => 30,'May' => 31,'June' => 30,'July' => 31,'August' => 31,'September' => 30,'October' => 31,'November' => 30,'December' =>31);
-    $begin = new DateTime( "2015-07-03" );
-$end   = new DateTime( "2015-07-09" );
-
-for($i = $begin; $i <= $end; $i->modify('+1 day')){
-    echo $i->format("Y-m-d");
-}
+    
         ?>
 </body>
 </html>
