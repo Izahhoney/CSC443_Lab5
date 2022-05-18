@@ -14,7 +14,7 @@ $monthDays = array ('January' => 31, 'February' => 28, 'March' => 31,'April' => 
 foreach ($monthDays as $key => $day)
 {// Displaying month with days
  echo "$month[$i] $day <br>";
- $i++;
+ //$i++;
  echo "<br>";
 }
 
