@@ -21,7 +21,7 @@ foreach ($monthDays as $key => $day)
 foreach($monthDays as $key => $day30)
 {
     if($day30 == 30){
-        echo "$key" "$day30 <br>";
+        echo "$key $day30 <br>";
     }
 }
 ?>
