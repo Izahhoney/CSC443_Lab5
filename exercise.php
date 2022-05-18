@@ -13,7 +13,7 @@
     //echo "</br>";
     echo "Number of days in year:".array_sum($monthDays);
     //echo "</br>";
-    //print_r("Minimum days month:".array_search(min($monthDays),$monthDays));
+    echo "The name of the shortest month:".array_search(min($monthDays),$monthDays);
     ?>
 </body>
 </html>
