@@ -9,12 +9,12 @@
 <body>
     <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-    //sort($month);//using for alphabetical order (sorting)
-    //$arrlength = count($month); //using for loop
-       // for ($x=0; $x < $arrlength; $x++) {
-        //    echo $month[$x];
-        //    echo "<br>";
-       // }
+    sort($month);//using for alphabetical order (sorting)
+    $arrlength = count($month); //using for loop
+        for ($x=0; $x < $arrlength; $x++) {
+            echo $month[$x];
+            echo "<br>";
+        }
     
 
        //using foreachloop
