@@ -16,7 +16,9 @@
             echo "<br>";
         }
     
+        ?>
 
+<?php
        //using foreachloop
     foreach($month as $key => $value){
     echo "The value of key $key is: $value<br>";
@@ -25,6 +27,7 @@
     foreach ($month as $value){
         echo "value: $value<BR>";
     }
+   
     ?>
     </body>
 </html>
