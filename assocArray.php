@@ -23,8 +23,9 @@
         if($item == 30)
         {
             echo "$month[$i] = $item <br>";
+            $i++;
         }
-        $i++;
+       // $i++;
     }
   ?>
 </body>
