@@ -8,11 +8,12 @@
 </head>
 <body>
     <?php
-    $month = array ('Splorch', 'Sploo','Splat','Splatt', 'Spleen', 'Splune', 'Spling', 'Slendo', 'Sploctember', 'Splictember', 'Splanet', 'TheRest')
     $monthDays = array ('Splorch' => 23, 'Sploo' => 28, 'Splat' => 2, 'Splatt' => 3,'Spleen' => 44, 'Splune' => 30,'Spling' => 61, 'Slendo' => 61,'Sploctember' => 31, 'Splictember' => 31,'Splanet' => 30, 'TheRest' => 22);
-    print_r ("The number of days in the shortest month is:".min($monthDays))"</br>";
-   //echo "The name of the shortest month".array_search(min($monthDays))"</br>";
-   // echo "The total number of days in a year is :".array_sum($monthDays)"</br>";
+    echo "The shortest month is:".min($monthDays);
+    //echo "</br>";
+    //print_r("Number of days in year:".array_sum($monthDays));
+    //echo "</br>";
+    //print_r("Minimum days month:".array_search(min($monthDays),$monthDays));
     ?>
 </body>
 </html>
