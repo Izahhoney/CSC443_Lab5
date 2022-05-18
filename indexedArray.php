@@ -10,15 +10,13 @@
 <?php
     $month = array ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
     'October', 'November', 'December');
-    //sort($month);
+    sort($month);
     $i = 0;
     for($i = 0; $i <= 11; $i++)
     {
         echo $month[$i]. "\n";
         echo "<br>";
-    echo "<br>";
     }
-
     
    
     foreach ($month as $key => $val) { 
