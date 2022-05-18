@@ -15,8 +15,7 @@ foreach ($monthDays as $key => $day)
 {// Displaying month with days
  echo "$month[$i] $day <br>";
  $i++;
- echo "<br>";
-}
+}echo "<br>";
 
 ?>
 </body>
