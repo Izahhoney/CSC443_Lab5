@@ -7,51 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-    $monthDays = array ('January' => 31, 'February' => 28,
-    'March' => 31, 'April' => 30,
-    'May' => 31, 'June' => 30,
-    'July' => 31, 'August' => 31,
-    'September' => 30, 'October' => 31,
-    'November' => 30, 'December' => 31);
-    echo $monthDays['January'];
-    echo "<br>";
-    echo $monthDays['February'];
-    echo "<br>";
-    echo $monthDays['March'];
-    echo "<br>";
-    echo $monthDays['April'];
-    echo "<br>";
-    echo $monthDays['May'];
-    echo "<br>";
-    echo $monthDays['June'];
-    echo "<br>";
-    echo $monthDays['July'];
-    echo "<br>";
-    echo $monthDays['August'];
-    echo "<br>";
-    echo $monthDays['September'];
-    echo "<br>";
-    echo $monthDays['October'];
-    echo "<br>";
-    echo $monthDays['November'];
-    echo "<br>";
-    echo $monthDays['December'];
-    echo "<br>";
-    
-    ?>
     <?php
-    function assign_key() { 
-    return 'd'; 
-    } 
-    $month['January'] = 1; 
-    $month['b'] = 2; 
-    $month['c'] = 3; 
-    $month[assign_key()] = 4; /* Assign the key 'd' */
-    $month['b'] = $month['a'] + $month['c']; /* $month['b'] now has 4 *
-    -------------
-    ?>
-
+     $month = array ('January','February','March','April','May','June','July', 'August', 'September','October', 'November','December');
+    $monthDays = array ('January' => 31,'February'=> 28,'March' =>31,'April' => 30,'May' => 31,'June' => 30,'July' => 31,'August' => 31,'September' => 30,'October' => 31,'November' => 30,'December' =>31);
+    foreach ($monthDays as $item)
+    {
+        echo "$month[$i] - $item <br>";
+        $i++;
+    } echo "<br>";
+    $month = array ('January','February','March','April','May','June','July', 'August', 'September','October', 'November','December');
+    $monthDays = array('January' => 31,'February'=> 28,'March' =>31,'April' => 30,'May' => 31,'June' => 30,'July' => 31,'August' => 31,'September' => 30,'October' => 31,'November' => 30,'December' =>31);
+    foreach ($monthDays as $item)
+    {
+        if($item - 30)
+        {
+            echo "$month[$i] = $item <br>";
+            
+        }
+        $i++;
+    }
   ?>
 </body>
 </html>
