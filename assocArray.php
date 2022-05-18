@@ -16,7 +16,7 @@ foreach ($monthDays as $key => $day)
 {
  echo "$key $day";
  echo "<br>";
-}
+}echo "<br>";
 //answer of question c)
 foreach($monthDays as $key => $day30)
 {
