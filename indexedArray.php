@@ -15,13 +15,12 @@
     for($i = 0; $i <= 11; $i++)
     {
         echo $month[$i]. "\n";
+        echo "<br>";
+    echo "<br>";
     }
-    ?>
 
-    <?php
-    echo "<br>";
-    echo "<br>";
-    sort($month);
+    
+   
     foreach ($month as $key => $val) { 
         echo "The value of key $key is: $val<br>"; 
         } 
