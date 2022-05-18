@@ -13,7 +13,7 @@
     foreach ($monthDays as $item => $day)
     {
         echo "$month[$i] as $day <br>";
-       $i++;
+       //$i++;
     } echo "<br>";
     
   ?>
